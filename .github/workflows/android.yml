@@ -25,7 +25,6 @@ jobs:
           cd MyApp
           cordova platform add browser
           cordova platform add android
-          cordova requirements
           cd ..
           git config user.name github-actions
           git config user.email github-actions@github.com
